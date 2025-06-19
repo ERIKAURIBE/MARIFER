@@ -1,0 +1,35 @@
+#contactanos {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe6f2; /* Fondo rosado */
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ff99cc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e05599;
+}
